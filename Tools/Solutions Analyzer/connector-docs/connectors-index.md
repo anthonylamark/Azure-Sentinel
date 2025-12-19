@@ -12,7 +12,7 @@ Browse all data connectors available in Microsoft Sentinel Solutions.
 
 ## Overview
 
-This page lists **462 unique connectors** across all solutions.
+This page lists **466 unique connectors** across all solutions.
 
 **Jump to:** [#](##) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [V](#v) | [W](#w) | [Z](#z)
 
@@ -1286,6 +1286,20 @@ The [CyberArk Audit](https://docs.cyberark.com/Audit/Latest/en/Content/Resources
 Actionable alerts provide customized alerts based on configured assets
 
 [→ View full connector details](connectors/cybersixgillactionablealerts.md)
+
+---
+
+### [Cyble Vision Alerts](connectors/cyblevisionalerts.md)
+
+**Publisher:** Cyble
+
+**Solution:** [Cyble Vision](solutions/cyble-vision.md)
+
+**Tables (1):** `CybleVisionAlerts_CL`
+
+The **Cyble Vision Alerts** CCF Data Connector enables Ingestion of Threat Alerts from Cyble Vision into Microsoft Sentinel using the Codeless Connector Framework Connector. It collects alert data via API, normalizes it, and stores it in a custom table for advanced detection, correlation, and response.
+
+[→ View full connector details](connectors/cyblevisionalerts.md)
 
 ---
 
@@ -2781,7 +2795,7 @@ The MailRisk by Secure Practice connector allows you to ingest email threat inte
 
 **Solution:** [Microsoft Copilot](solutions/microsoft-copilot.md)
 
-**Tables (1):** `LLMActivity`
+**Tables (1):** `CopilotActivity`
 
 The Microsoft Copilot logs connector in Microsoft Sentinel enables the seamless ingestion of Copilot-generated activity logs into Microsoft Sentinel for advanced threat detection, investigation, and response. It collects telemetry from Microsoft Copilot services - such as usage data, prompts and system responses - and ingests into Microsoft Sentinel, allowing security teams to monitor for misuse, detect anomalies, and maintain compliance with organizational policies.
 
@@ -4438,6 +4452,48 @@ The [Trend Vision One](https://www.trendmicro.com/en_us/business/products/detect
 The Trend Vision One connector is supported in Microsoft Sentinel in the following regions: Australia East, Australia Southeast, Brazil South, Canada Central, Canada East, Central India, Central US, East Asia, East US, East US 2, France Central, Japan East, Korea Central, North Central US, North Europe, Norway East, South Africa North, South Central US, Southeast Asia, Sweden Central, Switzerland North, UAE North, UK South, UK West, West Europe, West US, West US 2, West US 3.
 
 [→ View full connector details](connectors/trendmicroxdr.md)
+
+---
+
+### [Tropico Security - Alerts](connectors/tropicoalertsdefinition.md)
+
+**Publisher:** Tropico Security
+
+**Solution:** [Tropico](solutions/tropico.md)
+
+**Tables (1):** `{{graphQueriesTableName}}`
+
+Ingest security alerts from Tropico Security Platform in OCSF Security Finding format.
+
+[→ View full connector details](connectors/tropicoalertsdefinition.md)
+
+---
+
+### [Tropico Security - Events](connectors/tropicoeventsdefinition.md)
+
+**Publisher:** Tropico Security
+
+**Solution:** [Tropico](solutions/tropico.md)
+
+**Tables (1):** `{{graphQueriesTableName}}`
+
+Ingest security events from Tropico Security Platform in OCSF Security Finding format.
+
+[→ View full connector details](connectors/tropicoeventsdefinition.md)
+
+---
+
+### [Tropico Security - Incidents](connectors/tropicoincidentsdefinition.md)
+
+**Publisher:** Tropico Security
+
+**Solution:** [Tropico](solutions/tropico.md)
+
+**Tables (1):** `{{graphQueriesTableName}}`
+
+Ingest attacker session incidents from Tropico Security Platform.
+
+[→ View full connector details](connectors/tropicoincidentsdefinition.md)
 
 ---
 

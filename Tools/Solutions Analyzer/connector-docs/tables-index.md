@@ -12,9 +12,15 @@ Browse all tables ingested by Microsoft Sentinel data connectors.
 
 ## Overview
 
-This page lists **740 unique tables** ingested by connectors.
+This page lists **742 unique tables** ingested by connectors.
 
-**Jump to:** [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [Z](#z)
+**Jump to:** [#](##) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [Z](#z)
+
+## #
+
+| Table | Solutions | Connectors |
+|-------|-----------|------------|
+| [`{{graphQueriesTableName}}`](tables/{{graphqueriestablename}}.md) | [Tropico](solutions/tropico.md) | [Tropico Security - Alerts](connectors/tropicoalertsdefinition.md), [Tropico Security - Events](connectors/tropicoeventsdefinition.md), [Tropico Security - Incidents](connectors/tropicoincidentsdefinition.md) |
 
 ## A
 
@@ -170,6 +176,7 @@ This page lists **740 unique tables** ingested by connectors.
 | `Confluence_Audit_CL` | [AtlassianConfluenceAudit](solutions/atlassianconfluenceaudit.md) | [[Deprecated] Atlassian Confluence Audit](connectors/confluenceauditapi.md) |
 | `ContrastADRIncident_CL` | [ContrastADR](solutions/contrastadr.md) | [ContrastADR](connectors/contrastadr.md) |
 | `ContrastADR_CL` | [ContrastADR](solutions/contrastadr.md) | [ContrastADR](connectors/contrastadr.md) |
+| `CopilotActivity` | [Microsoft Copilot](solutions/microsoft-copilot.md) | [Microsoft Copilot](connectors/microsoftcopilot.md) |
 | `Corelight_CL` | [Corelight](solutions/corelight.md) | [Corelight Connector Exporter](connectors/corelightconnectorexporter.md) |
 | `Corelight_v2_bacnet_CL` | [Corelight](solutions/corelight.md) | [Corelight Connector Exporter](connectors/corelightconnectorexporter.md) |
 | `Corelight_v2_capture_loss_CL` | [Corelight](solutions/corelight.md) | [Corelight Connector Exporter](connectors/corelightconnectorexporter.md) |
@@ -302,6 +309,7 @@ This page lists **740 unique tables** ingested by connectors.
 | `CyberArk_AuditEvents_CL` | [CyberArkAudit](solutions/cyberarkaudit.md) | [CyberArkAudit](connectors/cyberarkaudit.md) |
 | `CyberSixgill_Alerts_CL` | [Cybersixgill-Actionable-Alerts](solutions/cybersixgill-actionable-alerts.md) | [Cybersixgill Actionable Alerts](connectors/cybersixgillactionablealerts.md) |
 | `CyberpionActionItems_CL` | [IONIX](solutions/ionix.md) | [IONIX Security Logs](connectors/cyberpionsecuritylogs.md) |
+| `CybleVisionAlerts_CL` | [Cyble Vision](solutions/cyble-vision.md) | [Cyble Vision Alerts](connectors/cyblevisionalerts.md) |
 | [`CyeraAssets_CL`](tables/cyeraassets-cl.md) | [CyeraDSPM](solutions/cyeradspm.md) | [Cyera DSPM Microsoft Sentinel Data Connector](connectors/cyeradspmccf.md), [Cyera DSPM Azure Functions Microsoft Sentinel Data Connector](connectors/cyerafunctionsconnector.md) |
 | [`CyeraAssets_MS_CL`](tables/cyeraassets-ms-cl.md) | [CyeraDSPM](solutions/cyeradspm.md) | [Cyera DSPM Microsoft Sentinel Data Connector](connectors/cyeradspmccf.md), [Cyera DSPM Azure Functions Microsoft Sentinel Data Connector](connectors/cyerafunctionsconnector.md) |
 | [`CyeraClassifications_CL`](tables/cyeraclassifications-cl.md) | [CyeraDSPM](solutions/cyeradspm.md) | [Cyera DSPM Microsoft Sentinel Data Connector](connectors/cyeradspmccf.md), [Cyera DSPM Azure Functions Microsoft Sentinel Data Connector](connectors/cyerafunctionsconnector.md) |
@@ -555,7 +563,6 @@ This page lists **740 unique tables** ingested by connectors.
 
 | Table | Solutions | Connectors |
 |-------|-----------|------------|
-| `LLMActivity` | [Microsoft Copilot](solutions/microsoft-copilot.md) | [Microsoft Copilot](connectors/microsoftcopilot.md) |
 | `LastPassNativePoller_CL` | [LastPass](solutions/lastpass.md) | [LastPass Enterprise - Reporting (Polling CCP)](connectors/lastpass-polling.md) |
 | `LinuxAudit_CL` | [NXLog LinuxAudit](solutions/nxlog-linuxaudit.md) | [NXLog LinuxAudit](connectors/nxloglinuxaudit.md) |
 | `Lockdown_Data_CL` | [Vectra XDR](solutions/vectra-xdr.md) | [Vectra XDR](connectors/vectraxdr.md) |
